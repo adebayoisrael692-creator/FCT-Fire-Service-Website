@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FireFront — Fire & Rescue Protection Services</title>
+  <meta name="description" content="FireFront provides 24/7 fire rescue, emergency response, medical service and fire safety education. Join our fire department or get in touch today." />
+  <meta property="og:title" content="FireFront — Fire & Rescue Protection Services" />
+  <meta property="og:description" content="24/7 fire rescue, emergency response and community fire safety. Brave firefighters protecting lives and property." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="logo">
+        <div class="logo-icon">
+          <img src="img/fct/fct-logo.png" alt="FCT Fire Service logo">
+        </div>
+        <div class="logo-span">
+          <span class="logo-text">Fire <span class="logo-text-span">Service</span></span>
+          <p class="logo-sub">Abuja | Asokoro</p>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#prevention">Prevention</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="tel:+2342092906118" class="btn-nav">
+        Contact Us
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <svg class="mobile-nav-open" id="iconMenu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <!-- <svg id="iconClose" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> -->
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="mobile-nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#prevention">Prevention</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="btn-nav mobile-nav-cta">
+        Contact Us
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </nav>
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-label text-stroke-flame">FCT FIRE SERVICE</p>
+          <h1 class="hero-title">Protecting lives,<br /> property &amp; <br>our community</h1>
+          <p class="hero-desc">
+            The FCT Fire service is dedicated to safeguarding lives
+            and property across Federal Capital Territory Abuja. We respond,
+            prevent and serve - 24/7.
+          </p>
+          <div class="hero-btns">
+            <a href="#services" class="btn-primary">
+              Our Services
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#prevention" class="btn-outline">
+              Fire Safety Tips
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-img-wrap">
+          <img
+            src="img/hero/fire-man.png"
+            alt="Firefighter in full turnout gear viewed from behind"
+            class="animate-fade-up"
+            width="900"
+            height="1200"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURE CARDS ========== -->
+    <section class="features">
+      <div class="container features-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="#ffffff"><rect x="14" y="27" width="32" height="18" rx="2"/><path d="M46 32h5l5 6v7H46z"/><rect x="48" y="34" width="6" height="5" rx="1" fill="#E50914"/><rect x="19" y="21" width="23" height="3" rx="1.5"/><rect x="22" y="18" width="3" height="12"/><rect x="37" y="18" width="3" height="12"/><circle cx="22" cy="47" r="5" fill="#E50914"/><circle cx="22" cy="47" r="2" fill="white"/><circle cx="46" cy="47" r="5" fill="#E50914"/><circle cx="46" cy="47" r="2" fill="white"/><rect x="28" y="23" width="7" height="4" rx="1"/></g></svg>
+          </div>
+          <span class="feature-num">01</span>
+          <h3 class="feature-title">Fire Response</h3>
+          <p class="feature-text">Rapid and professional response to fire emergencies across the FCT.</p>
+        </article>
+        <article class="feature-card reveal" style="transition-delay:100ms">
+          <div class="feature-icon">
+            <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M34 12C38 19 45 22 45 32C45 42 39 49 32 49C23 49 18 42 18 34C18 27 22 22 27 18C27 25 31 27 34 30C35 25 34 20 34 12Z" fill="#ffffff"/><path d="M32 32C35 36 38 38 37 42C36 46 33 47 30 46C26 44 26 40 28 37C29 35 31 34 32 32Z" fill="#E50914"/></svg>
+          </div>
+          <span class="feature-num">02</span>
+          <h3 class="feature-title">Fire Prevention</h3>
+          <p class="feature-text">Inspection, risk assesment and fire safety enforcement in public and private buildings.</p>
+        </article>
+        <article class="feature-card reveal" style="transition-delay:200ms">
+          <div class="feature-icon">
+            <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="#ffffff"><circle cx="32" cy="25" r="6"/><path d="M22 43c0-7 4-11 10-11s10 4 10 11z"/><circle cx="19" cy="29" r="5"/><path d="M11 44c0-6 3-9 8-9s8 3 8 9z"/><circle cx="45" cy="29" r="5"/><path d="M37 44c0-6 3-9 8-9s8 3 8 9z"/></g></svg>
+          </div>
+          <span class="feature-num">03</span>
+          <h3 class="feature-title">Public Education</h3>
+          <p class="feature-text">Community outreach and training on fire safety and emergency preparedness.</p>
+        </article>
+        <article class="feature-card reveal" style="transition-delay:300ms">
+          <div class="feature-icon">
+            <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="#ffffff"><path d="M17 34a15 15 0 0 1 30 0h-4a11 11 0 0 0-22 0z"/><rect x="14" y="32" width="7" height="15" rx="3"/><rect x="43" y="32" width="7" height="15" rx="3"/><text x="32" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#fffff">24/7</text></g></svg>
+          </div>
+          <span class="feature-num">04</span>
+          <h3 class="feature-title">24/7 Emergency line</h3>
+          <p class="feature-text">Always available to respond to your call across the FCT.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-main">
+          <div class="about-director reveal">
+            <div class="about-director-image">
+              <img src="img/fct/fct-director.png" alt="Director, FCT Fire Service" loading="lazy">
+            </div>
+            <div class="about-director-info">
+              <span class="about-accent-line"></span>
+              <div>
+                <h3>Mr. Adebayo Zaccheaus</h3>
+                <p>Director, FCT Fire Service</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content reveal" style="transition-delay:150ms">
+            <p class="about-label"><span></span> About Us</p>
+
+            <h2 class="about-title">Serving and Protecting<br>the Federal Capital Territory</h2>
+
+            <p class="about-description">
+              The FCT Fire Service is committed to protecting lives and property across the Federal Capital Territory. Through emergency response, fire prevention, public safety education and professional firefighting services, we work every day to build a safer community for residents and visitors.
+            </p>
+
+            <div class="about-stats">
+              <div class="about-stat">
+                <div class="about-stat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 14"></polyline><path d="M8 3.5 6.5 5"></path><path d="M16 3.5 17.5 5"></path></svg>
+                </div>
+                <strong>24/7</strong>
+                <span>Emergency<br>Response</span>
+              </div>
+
+              <div class="about-stat">
+                <div class="about-stat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-6 9 6v12"></path><path d="M7 21v-6h10v6"></path><path d="M9 12h.01"></path><path d="M15 12h.01"></path><path d="M9 16h.01"></path><path d="M15 16h.01"></path></svg>
+                </div>
+                <strong>6+</strong>
+                <span>Fire Stations<br>Across the FCT</span>
+              </div>
+
+              <div class="about-stat">
+                <div class="about-stat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 14a7 7 0 0 1 14 0"></path><path d="M7 14v3"></path><path d="M17 14v3"></path><path d="M9 7.5a4 4 0 0 1 6 0"></path><path d="M4 17a2 2 0 0 0 2 2h1"></path><path d="M20 17a2 2 0 0 1-2 2h-1"></path><path d="M9 19a3 3 0 0 0 6 0"></path></svg>
+                </div>
+                <strong>Rapid</strong>
+                <span>Response<br>Time</span>
+              </div>
+
+              <div class="about-stat">
+                <div class="about-stat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v5c0 5.2-3.4 8.8-8 10-4.6-1.2-8-4.8-8-10V6l8-3z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                </div>
+                <strong>Professional</strong>
+                <span>&amp; Well Trained<br>Firefighters</span>
+              </div>
+            </div>
+
+            <a href="#" class="about-button" data-modal="about">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-message">
+        <div class="container">
+          <div class="about-message-grid">
+            <div class="about-quote reveal">
+              <div class="about-quote-mark">“</div>
+              <p class="about-message-label">Message From The Director</p>
+              <blockquote>
+                “Our commitment is to safeguard lives, protect property and provide a rapid, professional response to fire and other emergencies across the FCT.”
+              </blockquote>
+            </div>
+
+            <div class="about-message-info reveal" style="transition-delay:150ms">
+              <div class="about-message-person">
+                <h3>Mr. Adebayo Zaccheaus</h3>
+                <p>Director, FCT Fire Service</p>
+              </div>
+              <span class="about-message-line"></span>
+              <p class="about-message-text">
+                Together with our dedicated personnel and modern equipment, we remain focused on prevention, preparedness and prompt action for a safer FCT.
+              </p>
+            </div>
+
+            <div class="about-message-emblem">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Our Services</p>
+          <h2 class="section-title">Services We're Providing to Best People</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-img">
+              <img id="rescue" src="img/services/damaged-building.png" alt="Firefighters carrying out a rescue operation" width="1024" height="768" loading="lazy" />
+              <span class="service-num">01</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Rescue Operations</h3>
+              <p class="service-text">Responding promptly to rescue people trappe in fire incidents, emergencies to protect lives and properties.</p>
+              <a href="#" class="service-link" data-modal="rescue-operations">
+                Learn More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="service-card reveal" style="transition-delay:120ms">
+            <div class="service-img">
+              <img id="response" src="img/services/emergency-response.webp" alt="Firefighter responding to a road accident" width="1024" height="768" loading="lazy" />
+              <span class="service-num">02</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Emergency Response</h3>
+              <p class="service-text">Providing quick and coordinated response to fire outbreaks and other emergencies to protect lives and property.</p>
+              <a href="#" class="service-link" data-modal="accident-response">
+                Learn More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="service-card reveal" style="transition-delay:240ms">
+            <div class="service-img">
+              <img id="education" src="img/services/safety-eucation.png" alt="Firefighter suppressing a structure fire" width="1024" height="768" loading="lazy" />
+              <span class="service-num">03</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Safety Education</h3>
+              <p class="service-text">Creating awareness and educating the public on fire prevention, safety measures and what to do in case of fire outbreaks.</p>
+              <a href="#" class="service-link" data-modal="fire-suppression">
+                Learn More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BANNER ========== -->
+    <section class="banner" id="prevention">
+      <img
+        class="banner-bg"
+        src="img/services/safety-eucation.png"
+        alt="Firefighters silhouetted against flames at night"
+        width="1920"
+        height="800"
+        loading="lazy"
+      />
+      <div class="banner-overlay"></div>
+      <div class="banner-content reveal">
+        <p class="section-label">Prevention First</p>
+        <h2 class="banner-title">Youth Fire Stop Prevention <span class="text-flame">&amp;</span> Intervention Program</h2>
+        <p class="banner-desc">
+          Education and early intervention keep our youngest community members safe. Watch how
+          the program changes lives.
+        </p>
+        <button class="play-btn" id="bannerPlayBtn" type="button" aria-label="Watch FCT Fire Service video">
+          <span class="play-btn-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </span>
+          <span class="play-btn-text">Watch Our Video</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Testimonials</p>
+          <h2 class="section-title">Strength in Service: Community Reflections</h2>
+        </div>
+        <div class="testimonials-grid">
+          <figure class="testimonial-card reveal">
+            <div class="stars" aria-label="5 star rating">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="testimonial-text">“I'm grateful for the FCT Fire Service’s swift response. After I raised the alarm about a house fire, the firefighters arrived within minutes with multiple trucks and quickly brought the situation under control. Their speed, preparedness and professionalism helped prevent what could have been a much greater loss. I was genuinely impressed by their response.”</blockquote>
+            <figcaption class="testimonial-footer">
+              <span class="testimonial-avatar">R</span>
+              <div>
+                <p class="testimonial-name">Stan Stagger Nwamama</p>
+                <p class="testimonial-role">Local Resident</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal" style="transition-delay:100ms">
+            <div class="stars" aria-label="5 star rating">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="testimonial-text">“The FCT Fire Service has a team that is always ready to respond when it matters most. Their commitment to serving the community, combined with their speed and professionalism, gives people confidence during emergencies.”</blockquote>
+            <figcaption class="testimonial-footer">
+              <span class="testimonial-avatar">A</span>
+              <div>
+                <p class="testimonial-name">Anonymous Reviewer</p>
+                <p class="testimonial-role">Local Resident</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal" style="transition-delay:200ms">
+            <div class="stars" aria-label="5 star rating">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="testimonial-text">“The FCT Fire Service has a team that is always ready to respond when it matters most. Their commitment to serving the community, combined with their speed and professionalism, gives people confidence during emergencies.”</blockquote>
+            <figcaption class="testimonial-footer">
+              <span class="testimonial-avatar">A</span>
+              <div>
+                <p class="testimonial-name">Anonymous Reviewer</p>
+                <p class="testimonial-role">Local Resident</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal">
+            <div class="stars" aria-label="5 star rating">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="testimonial-text">“What stood out to me was their commitment to safety. The FCT Fire Service demonstrates a strong sense of responsibility toward protecting lives and property, while remaining prepared to respond whenever their services are needed.”</blockquote>
+            <figcaption class="testimonial-footer">
+              <span class="testimonial-avatar">A</span>
+              <div>
+                <p class="testimonial-name">Anonymous Reviewer</p>
+                <p class="testimonial-role">Local Resident</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal" style="transition-delay:100ms">
+            <div class="stars" aria-label="5 star rating">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="testimonial-text">“Their response to emergencies is fast and effective. The team’s dedication to fire safety and rescue shows that they take their responsibility to the community seriously.”</blockquote>
+            <figcaption class="testimonial-footer">
+              <span class="testimonial-avatar">A</span>
+              <div>
+                <p class="testimonial-name">Anonymous Reviewer</p>
+                <p class="testimonial-role">Local Resident</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal" style="transition-delay:200ms">
+            <div class="stars" aria-label="5 star rating">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="testimonial-text">“I was impressed by the speed and professionalism of the firefighters. Their ability to respond quickly and work effectively during an emergency is a great reflection of their dedication to saving lives and protecting property.”</blockquote>
+            <figcaption class="testimonial-footer">
+              <span class="testimonial-avatar">A</span>
+              <div>
+                <p class="testimonial-name">Anonymous Reviewer</p>
+                <p class="testimonial-role">Local Resident</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NEWS ========== -->
+    <section class="news" id="news">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">News &amp; Blog</p>
+          <h2 class="section-title">Your Safety, Our Mission: Fire Service Updates</h2>
+        </div>
+        <div class="news-grid">
+          <article class="news-card reveal">
+            <div class="news-img">
+              <img src="img/news/cooking-safety.png" alt="Firefighters testing a home smoke alarm" width="1024" height="768" loading="lazy" />
+              <span class="news-tag">Safety</span>
+            </div>
+            <div class="news-body">
+              <p class="news-date">Jan 29, 2026</p>
+              <h3 class="news-title">LPG Cooking Gas Safety Tips</h3>
+              <a href="#" class="news-link" data-modal="article-alarms">
+                Read Article
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="news-card reveal" style="transition-delay:120ms">
+            <div class="news-img">
+              <img src="img/news/press-release.png" alt="Firefighter demonstrating fire safety to children" width="1024" height="768" loading="lazy" />
+              <span class="news-tag">Conference</span>
+            </div>
+            <div class="news-body">
+              <p class="news-date">Aprl 01, 2026</p>
+              <h3 class="news-title">Press Release</h3>
+              <a href="#" class="news-link" data-modal="article-kids">
+                Read Article
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a href="#home" class="logo">
+          <!-- <span class="logo-icon">
+            <svg class="shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <svg class="flame" viewBox="0 0 24 24" fill="currentColor"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          </span> -->
+          <span class="footer-image"><img src="img/fct/fct-logo.png " height="10%" width="10%" alt=""></span>
+          <span class="logo-text">
+            Fire<span>SERVICE</span></span>
+        </a>
+        <p>Dedicated to protecting lives and property through rapid emergency response, fire prevention and community education.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/fctfireserviceofficial" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://twitter.com/fctfireofficial" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+          <a href="https://www.instagram.com/fctfireserviceofficial/" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+          <a href="https://www.youtube.com/FCTFIREFIGHTERS" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="#rescue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Rescue Operations</a></li>
+          <li><a href="#response"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Emergency Response</a></li>
+          <li><a href="#education"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Safety Education</a></li>
+          <li><a href="#services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Medical Service</a></li>
+          <li><a href="#services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Fire Inspections</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Home</a></li>
+          <li><a href="#about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> About</a></li>
+          <li><a href="#services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Services</a></li>
+          <li><a href="#prevention"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Prevention</a></li>
+          <li><a href="#news"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> News</a></li>
+          <li><a href="#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact Info</h3>
+        <ul class="contact-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <a href="https://www.google.com/maps/search/?api=1&query=FCT+Fire+Service+Headquarters+Asokoro+Abuja+Nigeria" target="_blank" rel="noopener noreferrer">FCT Fire Service Headquarters, Asokoro, Abuja, Nigeria.</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <!-- Emergency: <a href="tel:112">112</a> · Station: <a href="tel:+2342092906118">(0209) 290-6118</a> -->
+             Emergency: 112 · Station: (0209) 290-6118
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:fctfireservicehq@gmail.com">fctfireservicehq@gmail.com</a>
+          </li>
+        </ul>
+        <a href="tel:+2342092906118" class="btn-primary">
+          Contact Us
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 FireService Protection Services. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- ========== REUSABLE MODAL ========== -->
+  <!-- Large professional panel: image left + content right on desktop; stacked on mobile.
+       Content is injected by JS from the MODAL_CONTENT object in main.js.
+       Edit titles, images, dates and body text there. -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel" role="document">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="modal-layout">
+        <div class="modal-image-wrap">
+          <img id="modalImage" src="" alt="" />
+        </div>
+        <div class="modal-content">
+          <p class="modal-date" id="modalDate"></p>
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <div class="modal-body" id="modalBody"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========== VIDEO MODAL (Banner only) ========== -->
+  <div class="video-modal-overlay" id="videoModalOverlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="FCT Fire Service video">
+    <div class="video-modal-panel" role="document">
+      <button class="video-modal-close" id="videoModalClose" type="button" aria-label="Close video">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="video-modal-player-wrap">
+        <video
+          id="bannerStoryVideo"
+          controls
+          playsinline
+          preload="metadata"
+          aria-label="FCT Fire Service story video"
+        >
+          <source src="video/fire -prev-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-fallback" id="videoFallback" hidden>
+          <p>Video unavailable. Please try again later.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
